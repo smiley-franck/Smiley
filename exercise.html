@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Exercise</title>
+    <link rel="icon" href="images/html-logo.jpg">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h2>Application Form</h2>
+            <label for="name">First Name:</label>
+            <input type="text" >
+            <label for="name">Last Name:</label>
+            <input type="text" name="name"><br><br>
+
+            <label>Date of birth:</label>
+                <input type="date" name="dob" id="dob">
+                <label for="Date">Age:</label>
+                <input type="number" name="age"><br><br>
+
+                <label>Gender:</label>
+                <select name="gender" id="gen">
+                    <option value="O">Male</option>
+                    <option value="A">Female</option>
+                    <option value="H">Transgender</option>
+                    <option value="M">Others</option>
+                </select>
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="e"><br><br>
+
+                <label >Positins Available:</label>
+                <input type="radio" name="status" id="j">
+                <label for="Junior">Junior Developer</label>
+                <input type="radio" name="status" id="m">
+                <label for="m">Mid-level Developer</label>
+                <input type="radio" name="status" id="s">
+                <label for="s">Senior Developer</label><br><br>
+
+                <label >Programing languages:</label>
+                <input type="checkbox" name="status" id="j">
+                <label for="m">Java</label>
+                <input type="checkbox" name="status" id="js">
+                <label for="m">JavaScript</label>
+                <input type="checkbox" name="status" id="py">
+                <label for="s">Python</label><br><br>
+
+                <label for="Password">Password:</label>
+                <input type="password" name="pwrd">
+                <label for="Password">Confirm Password:</label>
+                <input type="password" name="pwrd"><br><br>
+
+                <input type="button" value="Submit" onclick="alert('Form submitted')">
+                <input type="button" value="Reset" onclick="alert('Form submitted')">
+        </fieldset>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Device</th>
+                <th>Brand</th>
+                <th>Specifications</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Smartphone</td>
+                <td>Apple</td>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Storage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>iPhone 12 Pro</td>
+                                <td>256GB</td>
+                            </tr>
+                            <tr>
+                                <td>iPhone SE</td>
+                                <td>128GB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>HP</td>
+                <td>15.6" Display</td>
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>Samsung</td>
+                <td>10.5" Display</td>
+            </tr>
+        </tbody>
+    </table><br><br>
+    <img src="images/image1.jpg" width="700px" height="500px"><br>
+    <img src="images/image2.jpg" width="700px" height="500px"><br>
+</body>
+</html>
